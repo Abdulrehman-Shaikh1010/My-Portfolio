@@ -8,6 +8,7 @@ const Skill = () => {
     { name: "JavaScript/TypeScript", proficiency: "90%" },
     { name: "Next.js", proficiency: "65%" },
     { name: "Graphic Designing", proficiency: "80%" },
+    { name: "Figma", proficiency: "70%"},
   ];
 
   return (

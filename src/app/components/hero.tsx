@@ -45,7 +45,7 @@ export const Hero = () => {
             alt="hero"
             width={300}
             height={300}
-            src="/assets/Profile/Profile-removebg-preview.png" // Update with your image path
+            src="/assets/Profile/Profile-removebg.png" // Update with your image path
           />
         </div>
       </div>

@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { IoLogoVercel } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -13,12 +14,12 @@ const Footer = () => {
             <h2 className="text-lg font-medium text-gray-900">ABDULREHMAN SHAIKH</h2>
             <p className="mt-2 text-sm">Frontend Developer | UI/UX Designer | Graphic Designer</p>
           </div>
-          <div className="flex justify-center space-x-6 mt-4 sm:mt-0">
+          <div className="flex justify-center items-center space-x-4 mt-5 w-full sm:mt-0 ">
             <a href="https://www.facebook.com/profile.php?id=61553115674141" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
               <FaFacebook size={24} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-              <FaTwitter size={24} />
+            <a href="https://vercel.com/abdulrehman-shaikhs-projects" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+              <IoLogoVercel size={24} />
             </a>
             <a href="https://www.linkedin.com/in/abdulrehman-shaikh-0b64422b9/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
               <FaLinkedin size={24} />
