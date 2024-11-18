@@ -17,7 +17,7 @@ const Contact = () => {
               Get in Touch
             </h1>
             <p className="mt-4 text-gray-700">
-              Feel free to reach out to discuss a project or just say hello. I'm always happy to connect!
+              Feel free to reach out to discuss a project or just say hello. I&apos;m always happy to connect!
             </p>
           </div>
 

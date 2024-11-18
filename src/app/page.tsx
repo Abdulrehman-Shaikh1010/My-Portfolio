@@ -8,8 +8,8 @@ import Project from "./components/project";
 import Contact from "./components/contact";
 
 export default function Page() {
-  return (
-    <div>
+  return ( 
+      <div>
       <Navbar />
       <Hero />
       <About />
